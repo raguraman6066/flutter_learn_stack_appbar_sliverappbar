@@ -75,6 +75,14 @@ class _SliverAppbarState extends State<SliverAppbar> {
               );
             }, childCount: 10),
           ),
+          SliverToBoxAdapter(
+            child: Container(
+              height: 100,
+              color: Colors.pinkAccent,
+              child: Text("hello world!"),
+            ),
+          ),
+
         ],
       ),
     );
